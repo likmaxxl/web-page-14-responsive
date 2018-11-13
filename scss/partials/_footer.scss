@@ -1,0 +1,25 @@
+footer{
+  padding:50px 0;
+  .copy{
+    text-align: center;
+  }
+  .icons-fa{
+
+    @extend .clearfix;
+    text-align: center;
+    ul{
+      display:inline-block;
+      text-align:center;
+        @extend .clearfix;
+        @extend .list-reset;
+      li{
+        font-size:20px;
+        padding:0 10px;
+      float:left;
+a{
+  color:rgb(70,70,70);
+}
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+#section-10{
+  background:url("../images/contact-bg.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position:50% 373px;
+  background-attachment: fixed;
+  .row{
+    display:block;
+    margin:0;
+    @media all and (min-width:$lg){
+      display:flex;
+    }
+
+  .col-1-2{
+    margin:0 auto;
+    @media all and (min-width:$lg){
+      article{
+        padding:70px;
+        button{
+          background: #f15d54;
+padding: 10px 54px;
+border-radius: 20px;
+text-transform: uppercase;
+color: white;
+font-size: 14px;
+font-weight: 500;
+cursor: pointer;
+
+        }
+      }
+    }
+
+.center{
+  text-align: center;
+  button{
+    margin:15px 0;
+    padding: 10px 54px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+  padding:100px 0;
+  h4{
+    padding:15px 0;
+  }
+}
+.form{
+  h2{
+    text-align:center;
+    text-transform: uppercase;
+    padding:0 0 30px 0;
+  }
+  background-color:rgb(255,255,255);
+  padding:100px 14px;
+  .form-2{
+.form-group{
+  .form-control{
+    border:none;
+    border-bottom:solid 1px rgb(235,235,235);
+    }
+    }
+  }
+  .center{
+    text-align: center;
+
+  button{
+    background:rgb(10,10,10);
+    color:rgb(240,240,240);
+    text-transform: uppercase;
+  }
+  }
+}
+  }
+}

@@ -1,0 +1,65 @@
+#section-6{
+  color:rgb(150,150,150);
+  background-image: url("../images/register-bg.jpg");
+  background-repeat: repeat-x;
+  background-size:cover;
+  padding:150px 0;
+  background-position:48% 22px;
+  background-attachment: fixed;
+  .row{
+    display:block;
+    margin:0;
+    @media all and (min-width:$md){
+      display:flex;
+    }
+  }
+
+
+  .registration{
+    margin:10px 0;
+    h3{
+      color:rgb(240,240,240);
+      text-transform: uppercase;
+      padding:17px 0;
+  }
+  p:nth-of-type(1){
+    color:rgb(240,240,240);
+    font-size:18px;
+    font-weight:500;
+    padding:5px 0;
+  }
+    }
+    .col-1-2{
+      margin:0 auto;
+      form{
+
+      }
+      .form-group{
+        margin:55px 0;
+
+      }
+      .form-control{
+        border:solid white 2px;
+        margin:12px 0;
+        background-color: transparent;
+      }
+      .center{
+  text-align: center;
+        button{
+          background:rgb(241,93,84);
+      padding:10px 54px;
+      border-radius:20px;
+      text-transform: uppercase;
+      color:white;
+      font-size:14px;
+      font-weight: 500;
+      cursor:pointer;
+      &:focus{
+        outline:none;
+border:none;
+      }
+        }
+      }
+
+    }
+}

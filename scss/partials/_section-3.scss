@@ -1,0 +1,23 @@
+#section-3{
+  padding:70px 0;
+  article{
+    h3{
+      color:rgb(40,40,40);
+      font-weight: 600;
+      padding:20px 0;
+    }
+    p:nth-of-type(1){
+      font-size:18px;
+      font-weight:500;
+    }
+  }
+  .row{
+    display:block;
+    @media all and (min-width:$sm){
+      display:flex;
+    }
+    .embed-responsive{
+      margin:50px 0 100px 0;
+    }
+  }
+}

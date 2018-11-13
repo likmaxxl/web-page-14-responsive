@@ -1,0 +1,43 @@
+#section-5{
+  h3{
+    padding:5px 0 10px 0;
+  }
+  .btn{
+    text-transform: uppercase;
+    font-weight: 500;
+    background:transparent;
+    transition:all .1s;
+    margin:10px 0;
+    &:hover{
+      border-bottom:1px solid green;
+}
+&:focus{
+  outline:none;
+  box-shadow: none;
+}
+  }
+.about{
+  padding:30px 0;
+  .ab12{
+    padding:40px 0;
+
+.about-1{
+img{
+border-radius: 50%;
+ }
+  }
+.about-2{
+  h3{
+    margin-bottom:3px;
+  }
+  }
+.time{
+  padding:15px 0;
+text-align: center;
+span{
+  padding:0 17px 0 0;
+}
+}
+}
+}
+}

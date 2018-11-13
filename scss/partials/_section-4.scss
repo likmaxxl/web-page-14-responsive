@@ -1,0 +1,36 @@
+#section-4{
+  header{
+    padding:0 0 40px 0;
+    text-align: center;
+    h3{
+      text-transform: uppercase;
+      padding:23px 0;
+    }
+  }
+.col-1-4{
+  display:none;
+  @media all and (min-width:$md){
+    display: block;
+    margin:10px 0;
+
+  }
+}
+.carousel{
+  padding:0 0 70px 0;
+  @media all and (min-width:$md){
+    display:none;
+  }
+  .carousel-caption{
+    position:static;
+    width:100%;
+    background:rgba(0,0,0,.4);
+    line-height:9px;
+    color:rgb(240,240,240);
+  right:0;
+    bottom:0;
+    left:0;
+    padding:0;
+    padding:5px 0;
+  }
+}
+}
